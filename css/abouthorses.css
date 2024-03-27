@@ -574,14 +574,14 @@ header {
 }
 
 .address-strip {
-  height: 8.5vw;
+  height: 11.5vw;
   background-color: rgb(188, 166, 142);
   background-size: cover;
   font-size: 2vw;
   font-weight: 300;
   padding-top: 1vw;
   text-align: center;
-  line-height: 1.05;
+  line-height: 1.15;
 }
 
 .slogan {
@@ -1647,6 +1647,11 @@ video {
     opacity: 1.4;
   }
 }
+@media only screen and (min-width: 500px) {
+  .the-break {
+    display: none;
+  }
+}
 @media only screen and (max-width: 500px) {
   body {
     background: rgb(226, 223, 216);
@@ -2210,13 +2215,13 @@ video {
   .address-strip {
     padding-top: 2vw;
     margin-bottom: 0vw;
-    height: 17.5vw;
+    height: 27.5vw;
     background-color: rgb(188, 166, 142);
     background-size: cover;
     font-size: 4vw;
     font-weight: 300;
     text-align: center;
-    line-height: 1.05;
+    line-height: 1.15;
   }
   .slogan {
     position: absolute;

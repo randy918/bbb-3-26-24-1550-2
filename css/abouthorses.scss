@@ -679,14 +679,14 @@ header {
 //!  4-25-20.0951       SLOGAN AREA NEW 🏛  WITH BEM
 
 .address-strip {
-    height: 8.5vw;
+    height: 11.5vw;
     background-color: getColor(bbb2-Basswood);
     background-size: cover;
     font-size: 2vw;
     font-weight: 300;
     padding-top: 1vw;
     text-align: center;
-    line-height: 1.05;
+    line-height: 1.15;
 }
 
 .slogan {
@@ -1912,7 +1912,14 @@ video {
 
 
 
+@media only screen and (min-width: 500px) {
 
+    .the-break {
+      display: none;
+  
+  
+  }
+  }
 
 @media only screen and (max-width: 500px) {
     body {
@@ -2649,13 +2656,13 @@ font-weight: 400;
     .address-strip {
         padding-top: 2vw;
         margin-bottom: 0vw;
-        height: 17.5vw;
+        height: 27.5vw;
         background-color: getColor(bbb2-Basswood);
         background-size: cover;
         font-size: 4vw;
         font-weight: 300;
         text-align: center;
-        line-height: 1.05;
+        line-height: 1.15;
     }
 
     .slogan {
